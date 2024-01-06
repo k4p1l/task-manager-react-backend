@@ -9,7 +9,7 @@ const cors = require("cors");
 //Middleware
 app.use(cors(
   {
-    origin:["http://localhost:3000"]
+    origin:["http://localhost:3000","https://mern-task-app-gz4y.onrender.com"]
   }
 ))
 app.use(express.json());
