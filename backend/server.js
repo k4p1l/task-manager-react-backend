@@ -9,7 +9,7 @@ const cors = require("cors");
 //Middleware
 app.use(cors(
   {
-    origin:["http://localhost:3000","https://task-manager-frontend-8bb4.onrender.com/"]
+    origin:["http://localhost:3000","https://task-manager-frontend-8bb4.onrender.com"]
   }
 ))
 app.use(express.json());
